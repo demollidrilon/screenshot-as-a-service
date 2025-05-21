@@ -2,7 +2,7 @@
 
 A production-ready, extensible API service that captures website screenshots and returns them as downloadable PNG, PDF, or WebP files. Built with **.NET 9**, **PuppeteerSharp**, and **Amazon S3**.
 
-![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet)
+![.NET](https://img.shields.io/badge/.NET-9.0-blueviolet)
 ![AWS S3](https://img.shields.io/badge/AWS-S3-orange)
 ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
@@ -35,8 +35,8 @@ POST /api/screenshot
 ```
 {
   "url": "https://twitter.com",
-  "format": "Png",        // or "Pdf", "WebP"
-  "viewport": "Mobile"    // or "Desktop", "Tablet"
+  "format": "Png", // or "Pdf", "WebP"
+  "viewport": "Mobile" // or "Desktop", "Tablet"
 }
 ```
 
@@ -60,7 +60,7 @@ POST /api/screenshot
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/screenshot-as-a-service.git
+git clone https://github.com/demollidrilon/screenshot-as-a-service.git
 cd screenshot-as-a-service
 ```
 
@@ -102,7 +102,7 @@ Includes:
 
 ## Tech Stack
 
-- .NET 9
+- .NET 9 (Preview)
 - PuppeteerSharp
 - Amazon S3 SDK
 - Serilog
